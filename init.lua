@@ -17,3 +17,4 @@ vim.wo.relativenumber = true
 -- optionally enable 24-bit colour
 vim.opt.termguicolors = true
 
+vim.diagnostic.config({ virtual_text = true })

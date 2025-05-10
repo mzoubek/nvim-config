@@ -205,6 +205,11 @@ _G.packer_plugins = {
     path = "/home/mzoubek420/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-syntax-extra"] = {
+    loaded = true,
+    path = "/home/mzoubek420/.local/share/nvim/site/pack/packer/start/vim-syntax-extra",
+    url = "https://github.com/vim-scripts/vim-syntax-extra"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/home/mzoubek420/.local/share/nvim/site/pack/packer/start/which-key.nvim",

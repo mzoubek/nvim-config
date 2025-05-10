@@ -56,11 +56,10 @@ return require('packer').startup(function(use)
 	  'MunifTanjim/nui.nvim',
   }
   use({
-  "kylechui/nvim-surround",
-  config = function()
-    require("nvim-surround").setup({})
-  end
-	})
-
+	  "kylechui/nvim-surround",
+	  config = function()
+		  require("nvim-surround").setup({})
+	  end
+  })
 
 end)
