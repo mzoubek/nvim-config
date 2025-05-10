@@ -48,10 +48,13 @@ return require('packer').startup(function(use)
   use { 
 	  'EdenEast/nightfox.nvim',
 	  'feline-nvim/feline.nvim',
-	  'nanozuki/tabby.nvim',
   }
   use { 'folke/which-key.nvim' }
   use { 'numToStr/Comment.nvim' }
+  use {
+	  'folke/noice.nvim',
+	  'MunifTanjim/nui.nvim',
+  }
   use({
   "kylechui/nvim-surround",
   config = function()
